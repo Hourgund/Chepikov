@@ -7,8 +7,7 @@ def find_second_max_value(ls):
         if max_value < element:
             second_max_value = max_value
             max_value = element
-
-        if second_max_value < element:
+        elif second_max_value < element:
             second_max_value = element
 
     return second_max_value
