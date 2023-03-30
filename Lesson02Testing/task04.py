@@ -1,0 +1,6 @@
+print(input("Input age: ") * 5)
+print(int(input("Input age: ")) * 5)
+# int("18")
+# float("18.5")
+# bool("True")
+# str(True)
