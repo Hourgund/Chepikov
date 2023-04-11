@@ -1,12 +1,13 @@
 from student import Student
-from student import init
+
 
 
 def main():
-    st1 = Student()
-    st2 = Student()
-    print(vars(st1))
-    print(vars(st2))
+    st1 = Student("Alex", 20, 10)
+    st2 = Student("Kate", 18, 7)
+    st3 = Student("Peter", 21, 9)
+    st4 = Student()
+
 
 #    init(st1, "Alex", 20, 10)
 #    init(st1, "Kate", 18, 9)
