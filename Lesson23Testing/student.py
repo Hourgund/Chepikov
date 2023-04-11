@@ -8,9 +8,9 @@ class Student:
 
 
 #      print("Calling defolt-costructor")
-
-
-def init(st, name, age, mark):
-    st.name = name
-    st.age = age
-    st.mark = mark
+#
+#
+# def init(st, name, age, mark):
+#     st.name = name
+#     st.age = age
+#     st.mark = mark
