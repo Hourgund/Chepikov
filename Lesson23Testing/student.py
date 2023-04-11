@@ -1,7 +1,7 @@
 class Student:
 
-    def __init__(self, name, age, mark):
-        print("Calling costructor with arguments")
+    def __init__(self, name='no name', age=16, mark=4):
+        #        print("Calling costructor with arguments")
         self.name = name
         self.age = age
         self.mark = mark

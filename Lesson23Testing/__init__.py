@@ -1,7 +1,6 @@
 from student import Student
 
 
-
 def main():
     st1 = Student("Alex", 20, 10)
     st2 = Student("Kate", 18, 7)
